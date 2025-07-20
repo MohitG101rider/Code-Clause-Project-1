@@ -8,7 +8,7 @@ eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
 # Load image
 print("Images name - \n1. cat.png \n2. nface.png \n3. gface.jpg \n4. human.png")
 print('')
-a=input("Enter Image name from the above provided : ")
+a=input("Enter Image name : ")
 image_path = a
 image = cv2.imread(image_path)
 
